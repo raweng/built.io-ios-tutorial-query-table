@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>539C6CC5-815A-4AC2-9F8C-180130C64F65</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BuiltQueryTable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</key>
+		<string>https://github.com/raweng/built.io-ios-tutorial-query-table</string>
+		<key>643FE780-BA32-4447-B25C-BF677A847289</key>
+		<string>https://github.com/raweng/built.io-ios-framework</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BuiltQueryTable.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</key>
+		<string>../..</string>
+		<key>643FE780-BA32-4447-B25C-BF677A847289</key>
+		<string>../../built.io-ios-framework</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/raweng/built.io-ios-tutorial-query-table</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>643FE780-BA32-4447-B25C-BF677A847289</string>
+			<key>IDESourceControlWCCName</key>
+			<string>built.io-ios-framework</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>built.io-ios-tutorial-query-table</string>
+		</dict>
+	</array>
+</dict>
+</plist>
