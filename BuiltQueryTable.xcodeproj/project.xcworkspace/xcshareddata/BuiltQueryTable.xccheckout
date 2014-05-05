@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>539C6CC5-815A-4AC2-9F8C-180130C64F65</string>
+	<string>9152E79E-AAE5-4963-A2E1-749AD99F76F0</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BuiltQueryTable</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</key>
-		<string>https://github.com/raweng/built.io-ios-tutorial-query-table</string>
+		<key>144F3727-CE72-4614-9170-77786FDD1A29</key>
+		<string>https://github.com/raweng/built.io-ios-tutorial-query-table.git</string>
 		<key>643FE780-BA32-4447-B25C-BF677A847289</key>
 		<string>https://github.com/raweng/built.io-ios-framework</string>
 	</dict>
@@ -19,17 +19,17 @@
 	<string>BuiltQueryTable.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</key>
+		<key>144F3727-CE72-4614-9170-77786FDD1A29</key>
 		<string>../..</string>
 		<key>643FE780-BA32-4447-B25C-BF677A847289</key>
 		<string>../../built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/raweng/built.io-ios-tutorial-query-table</string>
+	<string>https://github.com/raweng/built.io-ios-tutorial-query-table.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</string>
+	<string>144F3727-CE72-4614-9170-77786FDD1A29</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1F6B7C7A-A0CA-473E-975A-6ADF4D6086F8</string>
+			<string>144F3727-CE72-4614-9170-77786FDD1A29</string>
 			<key>IDESourceControlWCCName</key>
 			<string>built.io-ios-tutorial-query-table</string>
 		</dict>
