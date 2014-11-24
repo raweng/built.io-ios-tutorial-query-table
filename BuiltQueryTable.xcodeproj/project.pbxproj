@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235B6B731A232BDA00782E7D /* BuiltQueryTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 235B6B721A232BDA00782E7D /* BuiltQueryTableTests.m */; };
 		4244C1AA18C45C3D00424714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1A918C45C3D00424714 /* Foundation.framework */; };
 		4244C1AC18C45C3D00424714 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1AB18C45C3D00424714 /* CoreGraphics.framework */; };
 		4244C1AE18C45C3D00424714 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1AD18C45C3D00424714 /* UIKit.framework */; };
@@ -14,11 +15,6 @@
 		4244C1B618C45C3E00424714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244C1B518C45C3E00424714 /* main.m */; };
 		4244C1BA18C45C3E00424714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244C1B918C45C3E00424714 /* AppDelegate.m */; };
 		4244C1C218C45C3E00424714 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4244C1C118C45C3E00424714 /* Images.xcassets */; };
-		4244C1C918C45C3E00424714 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1C818C45C3E00424714 /* XCTest.framework */; };
-		4244C1CA18C45C3E00424714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1A918C45C3D00424714 /* Foundation.framework */; };
-		4244C1CB18C45C3E00424714 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1AD18C45C3D00424714 /* UIKit.framework */; };
-		4244C1D318C45C3E00424714 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4244C1D118C45C3E00424714 /* InfoPlist.strings */; };
-		4244C1D518C45C3E00424714 /* BuiltQueryTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244C1D418C45C3E00424714 /* BuiltQueryTableTests.m */; };
 		4244C1E718C45FD000424714 /* BuiltQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244C1E618C45FD000424714 /* BuiltQueryTableViewController.m */; };
 		4244C1E918C4868500424714 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1E818C4868500424714 /* QuartzCore.framework */; };
 		4244C1EB18C4869800424714 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244C1EA18C4869800424714 /* Security.framework */; };
@@ -35,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4244C1CC18C45C3E00424714 /* PBXContainerItemProxy */ = {
+		235B6B741A232BDA00782E7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4244C19E18C45C3D00424714 /* Project object */;
 			proxyType = 1;
@@ -45,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235B6B6E1A232BDA00782E7D /* BuiltQueryTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltQueryTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		235B6B711A232BDA00782E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235B6B721A232BDA00782E7D /* BuiltQueryTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltQueryTableTests.m; sourceTree = "<group>"; };
 		4244C1A618C45C3D00424714 /* BuiltQueryTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltQueryTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4244C1A918C45C3D00424714 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4244C1AB18C45C3D00424714 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +55,6 @@
 		4244C1B818C45C3E00424714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4244C1B918C45C3E00424714 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4244C1C118C45C3E00424714 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4244C1C718C45C3E00424714 /* BuiltQueryTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltQueryTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4244C1C818C45C3E00424714 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4244C1D018C45C3E00424714 /* BuiltQueryTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltQueryTableTests-Info.plist"; sourceTree = "<group>"; };
 		4244C1D218C45C3E00424714 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -79,6 +77,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		235B6B6B1A232BDA00782E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4244C1A318C45C3D00424714 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,24 +104,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4244C1C418C45C3E00424714 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4244C1C918C45C3E00424714 /* XCTest.framework in Frameworks */,
-				4244C1CB18C45C3E00424714 /* UIKit.framework in Frameworks */,
-				4244C1CA18C45C3E00424714 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235B6B6F1A232BDA00782E7D /* BuiltQueryTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				235B6B721A232BDA00782E7D /* BuiltQueryTableTests.m */,
+				235B6B701A232BDA00782E7D /* Supporting Files */,
+			);
+			path = BuiltQueryTableTests;
+			sourceTree = "<group>";
+		};
+		235B6B701A232BDA00782E7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				235B6B711A232BDA00782E7D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4244C19D18C45C3D00424714 = {
 			isa = PBXGroup;
 			children = (
 				4244C1AF18C45C3E00424714 /* BuiltQueryTable */,
 				4244C1CE18C45C3E00424714 /* BuiltQueryTableTests */,
+				235B6B6F1A232BDA00782E7D /* BuiltQueryTableTests */,
 				4244C1A818C45C3D00424714 /* Frameworks */,
 				4244C1A718C45C3D00424714 /* Products */,
 			);
@@ -126,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				4244C1A618C45C3D00424714 /* BuiltQueryTable.app */,
-				4244C1C718C45C3E00424714 /* BuiltQueryTableTests.xctest */,
+				235B6B6E1A232BDA00782E7D /* BuiltQueryTableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +213,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		235B6B6D1A232BDA00782E7D /* BuiltQueryTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235B6B761A232BDA00782E7D /* Build configuration list for PBXNativeTarget "BuiltQueryTableTests" */;
+			buildPhases = (
+				235B6B6A1A232BDA00782E7D /* Sources */,
+				235B6B6B1A232BDA00782E7D /* Frameworks */,
+				235B6B6C1A232BDA00782E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235B6B751A232BDA00782E7D /* PBXTargetDependency */,
+			);
+			name = BuiltQueryTableTests;
+			productName = BuiltQueryTableTests;
+			productReference = 235B6B6E1A232BDA00782E7D /* BuiltQueryTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4244C1A518C45C3D00424714 /* BuiltQueryTable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4244C1D818C45C3E00424714 /* Build configuration list for PBXNativeTarget "BuiltQueryTable" */;
@@ -217,24 +248,6 @@
 			productReference = 4244C1A618C45C3D00424714 /* BuiltQueryTable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4244C1C618C45C3E00424714 /* BuiltQueryTableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4244C1DB18C45C3E00424714 /* Build configuration list for PBXNativeTarget "BuiltQueryTableTests" */;
-			buildPhases = (
-				4244C1C318C45C3E00424714 /* Sources */,
-				4244C1C418C45C3E00424714 /* Frameworks */,
-				4244C1C518C45C3E00424714 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4244C1CD18C45C3E00424714 /* PBXTargetDependency */,
-			);
-			name = BuiltQueryTableTests;
-			productName = BuiltQueryTableTests;
-			productReference = 4244C1C718C45C3E00424714 /* BuiltQueryTableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,7 +257,8 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Sameer;
 				TargetAttributes = {
-					4244C1C618C45C3E00424714 = {
+					235B6B6D1A232BDA00782E7D = {
+						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 4244C1A518C45C3D00424714;
 					};
 				};
@@ -263,12 +277,19 @@
 			projectRoot = "";
 			targets = (
 				4244C1A518C45C3D00424714 /* BuiltQueryTable */,
-				4244C1C618C45C3E00424714 /* BuiltQueryTableTests */,
+				235B6B6D1A232BDA00782E7D /* BuiltQueryTableTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		235B6B6C1A232BDA00782E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4244C1A418C45C3D00424714 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,17 +300,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4244C1C518C45C3E00424714 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4244C1D318C45C3E00424714 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		235B6B6A1A232BDA00782E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235B6B731A232BDA00782E7D /* BuiltQueryTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4244C1A218C45C3D00424714 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,21 +322,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4244C1C318C45C3E00424714 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4244C1D518C45C3E00424714 /* BuiltQueryTableTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4244C1CD18C45C3E00424714 /* PBXTargetDependency */ = {
+		235B6B751A232BDA00782E7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4244C1A518C45C3D00424714 /* BuiltQueryTable */;
-			targetProxy = 4244C1CC18C45C3E00424714 /* PBXContainerItemProxy */;
+			targetProxy = 235B6B741A232BDA00782E7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -339,6 +352,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		235B6B771A232BDA00782E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltQueryTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltQueryTable.app/BuiltQueryTable";
+			};
+			name = Debug;
+		};
+		235B6B781A232BDA00782E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltQueryTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltQueryTable.app/BuiltQueryTable";
+			};
+			name = Release;
+		};
 		4244C1D618C45C3E00424714 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,51 +508,17 @@
 			};
 			name = Release;
 		};
-		4244C1DC18C45C3E00424714 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuiltQueryTable.app/BuiltQueryTable";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BuiltQueryTable/BuiltQueryTable-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BuiltQueryTableTests/BuiltQueryTableTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4244C1DD18C45C3E00424714 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuiltQueryTable.app/BuiltQueryTable";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BuiltQueryTable/BuiltQueryTable-Prefix.pch";
-				INFOPLIST_FILE = "BuiltQueryTableTests/BuiltQueryTableTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		235B6B761A232BDA00782E7D /* Build configuration list for PBXNativeTarget "BuiltQueryTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235B6B771A232BDA00782E7D /* Debug */,
+				235B6B781A232BDA00782E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4244C1A118C45C3D00424714 /* Build configuration list for PBXProject "BuiltQueryTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -510,15 +533,6 @@
 			buildConfigurations = (
 				4244C1D918C45C3E00424714 /* Debug */,
 				4244C1DA18C45C3E00424714 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4244C1DB18C45C3E00424714 /* Build configuration list for PBXNativeTarget "BuiltQueryTableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4244C1DC18C45C3E00424714 /* Debug */,
-				4244C1DD18C45C3E00424714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
