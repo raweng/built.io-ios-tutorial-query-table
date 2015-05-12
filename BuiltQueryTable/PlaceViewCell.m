@@ -64,6 +64,7 @@
     self.placenameLabel.text = [builtObject objectForKey:@"place_name"];
     
     int colorCode = [[builtObject objectForKey:@"ratings"] intValue];
+    colorCode = (colorCode > 10 ? 10: colorCode);
     self.ratingsLabel.backgroundColor = [self.ratingsColor objectAtIndex:colorCode];
     
     self.ratingsLabel.text = [NSString stringWithFormat:@"%.1f",[[builtObject objectForKey:@"ratings"] floatValue]];

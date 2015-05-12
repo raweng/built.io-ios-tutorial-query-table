@@ -5,7 +5,7 @@
 
 
 //***********************************************************************************************************
-// This class extends from built.io's BuiltUITableViewController.
+// This class extends from Built.io's BuiltUITableViewController.
 // Its has built-in BuiltQuery object, so that there's no need to create BuiltQuery and execute it with exec method.
 // We can directly apply constraints/pagination/referential query methods on this query object and BuiltUITableViewController
 // automatically executes the query and presents you the result BuiltObject s.
@@ -24,16 +24,19 @@
 // specify the constraints/referential/pagination query method on built-in BuiltQuery object by BuiltUITableViewController's
 // initWithStyle
 //***********************************************************************************************************
--(id)initWithStyle:(UITableViewStyle)style{
-    self = [super initWithStyle:style];
+-(id)initWithStyle:(UITableViewStyle)style withBuiltClass:(BuiltClass *)builtClass{
+    self = [super initWithStyle:style withBuiltClass:builtClass];
     if (self) {
-        self.title = @"Tasks";
         self.enablePullToRefresh = YES;
         self.fetchLimit = 10;
         
-//  Add a constraint to the query that requires a particular key's object to be greater than or equal to the provided object
+        //  Add a constraint to the query that requires a particular key's object to be greater than or equal to the provided object
         [self.builtQuery whereKey:@"ratings" greaterThanOrEqualTo:[NSNumber numberWithInt:8.0]];
         [self.builtQuery orderByAscending:@"created_at"];
+        
+        [self refresh];
+
+        self.title = @"Tasks";
     }
     return self;
 }
@@ -45,8 +48,6 @@
     self.edgesForExtendedLayout=UIRectEdgeNone;
     self.extendedLayoutIncludesOpaqueBars=NO;
     self.automaticallyAdjustsScrollViewInsets=NO;
-    
-    [self refresh];
     
 	// Do any additional setup after loading the view.
 }

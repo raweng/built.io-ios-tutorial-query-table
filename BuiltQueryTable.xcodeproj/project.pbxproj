@@ -28,6 +28,12 @@
 		425AC53418CA098F00DEB77A /* PlaceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AC53318CA098F00DEB77A /* PlaceViewCell.m */; };
 		BA286A6018EDA8AC00E45578 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA286A5E18EDA8AB00E45578 /* BuiltIO.bundle */; };
 		BA286A6118EDA8AC00E45578 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA286A5F18EDA8AC00E45578 /* BuiltIO.framework */; };
+		FA231A7A1A9F07DA00434E36 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A791A9F07DA00434E36 /* libicucore.dylib */; };
+		FA231A7C1A9F07E100434E36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A7B1A9F07E100434E36 /* libsqlite3.dylib */; };
+		FA231A7E1A9F07E700434E36 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A7D1A9F07E700434E36 /* libc++.dylib */; };
+		FA231A801A9F07EF00434E36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A7F1A9F07EF00434E36 /* MobileCoreServices.framework */; };
+		FA231A821A9F07F400434E36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A811A9F07F400434E36 /* CoreData.framework */; };
+		FA231A841A9F07FB00434E36 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A831A9F07FB00434E36 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,12 @@
 		425AC53318CA098F00DEB77A /* PlaceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewCell.m; sourceTree = "<group>"; };
 		BA286A5E18EDA8AB00E45578 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
 		BA286A5F18EDA8AC00E45578 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
+		FA231A791A9F07DA00434E36 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FA231A7B1A9F07E100434E36 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FA231A7D1A9F07E700434E36 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FA231A7F1A9F07EF00434E36 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA231A811A9F07F400434E36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA231A831A9F07FB00434E36 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA231A841A9F07FB00434E36 /* CoreFoundation.framework in Frameworks */,
+				FA231A821A9F07F400434E36 /* CoreData.framework in Frameworks */,
+				FA231A801A9F07EF00434E36 /* MobileCoreServices.framework in Frameworks */,
+				FA231A7E1A9F07E700434E36 /* libc++.dylib in Frameworks */,
+				FA231A7C1A9F07E100434E36 /* libsqlite3.dylib in Frameworks */,
+				FA231A7A1A9F07DA00434E36 /* libicucore.dylib in Frameworks */,
 				4244C1F918C486D000424714 /* Accounts.framework in Frameworks */,
 				4244C1F718C486C800424714 /* Social.framework in Frameworks */,
 				4244C1F518C486C100424714 /* Twitter.framework in Frameworks */,
@@ -147,6 +165,12 @@
 		4244C1A818C45C3D00424714 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA231A831A9F07FB00434E36 /* CoreFoundation.framework */,
+				FA231A811A9F07F400434E36 /* CoreData.framework */,
+				FA231A7F1A9F07EF00434E36 /* MobileCoreServices.framework */,
+				FA231A7D1A9F07E700434E36 /* libc++.dylib */,
+				FA231A7B1A9F07E100434E36 /* libsqlite3.dylib */,
+				FA231A791A9F07DA00434E36 /* libicucore.dylib */,
 				BA286A5E18EDA8AB00E45578 /* BuiltIO.bundle */,
 				BA286A5F18EDA8AC00E45578 /* BuiltIO.framework */,
 				4244C1F818C486D000424714 /* Accounts.framework */,
@@ -518,6 +542,7 @@
 				235B6B781A232BDA00782E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4244C1A118C45C3D00424714 /* Build configuration list for PBXProject "BuiltQueryTable" */ = {
 			isa = XCConfigurationList;

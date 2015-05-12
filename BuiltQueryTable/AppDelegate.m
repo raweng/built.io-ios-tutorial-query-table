@@ -17,18 +17,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //***********************************************************************************************************
-    // Initialize Built class with your application's API-KEY and APP-UID
-    [Built initializeWithApiKey:@"blt9f2f3c1d77c907e0" andUid:@"geofencing"];
+    // Initialize Built class with your application's API-KEY
+    self.builtApplication = [Built applicationWithAPIKey:@"blt9f2f3c1d77c907e0"];
     //***********************************************************************************************************
     
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] ;
     
     // ****************************************************************************
-    // Initialize built.io UI element BuiltUITableViewController with class UID
+    // Initialize Built.io UI element BuiltUITableViewController with class UID
     // ****************************************************************************
-    
-    BuiltQueryTableViewController *VC = [[BuiltQueryTableViewController alloc]initWithStyle:UITableViewStylePlain withClassUID:@"places"];
+    BuiltClass *builtClass = [self.builtApplication classWithUID:@"places"];
+    BuiltQueryTableViewController *VC = [[BuiltQueryTableViewController alloc] initWithStyle:(UITableViewStylePlain) withBuiltClass:builtClass];
     UINavigationController *nav = [[UINavigationController alloc]  initWithRootViewController:VC];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
